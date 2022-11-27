@@ -1,0 +1,103 @@
+$primary:orange;
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500;600&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins&display=swap');
+//=================root===================//
+:root{
+    --title-font:'Poppins', sans-serif;
+
+    --subtitle-font: 'Dancing Script', cursive;
+}
+//=================color==================//
+:root{
+    --first-color:#0096c7;
+}
+//=================body===================//
+body{
+    background-color: #0096c7;
+}
+.one{
+    margin-top: 70px;
+    position: relative;
+    
+}
+.forimg{
+    height: 800px;
+}
+.glass{
+    margin-left: 750px;
+    margin-top: -700px;
+    position: absolute;
+    height: 600px;
+    width: 450px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.45);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.225);
+}
+.forfont{
+    font-family: var(--title-font);
+    color: black;
+}
+.span{
+    color: rgb(39, 39, 255);
+}
+.forp{
+    font-family: var(--title-font);
+    color: #787878;
+    // font-size: 15px;
+}
+.label-1{
+    font-size: 15px;
+    font-family: var(--title-font);
+    font-weight: bold;
+
+}
+.input-1{
+    border: solid rgb(105, 105, 105) 2px;
+    height: 60px;
+    // box-shadow: none;
+}
+.three{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 48%;
+    border-radius: 5px;
+    border: solid #4c54e3 2px;
+    background-color: #4c54e3;
+    height: 50px;
+}
+.four{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 48%;
+    color: #4c54e3;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.45);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.225);
+    border: solid #4c54e3 2px;
+    height: 50px;
+}
+.forp2{
+    font-family: var(--title-font);
+    color: #4c54e3;
+    font-weight: bold;
+    font-family: var(--title-font);
+    font-size: 12px;
+    // font-size: 15px;
+}
+//=============brakepoint=============//
+//Small point//
+@media (max-width:360px) {
+    .glass{
+        margin-left: none;
+        margin-top: -700px;
+    }
+}
+//mediam point//
+//large point//
